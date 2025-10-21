@@ -1,4 +1,4 @@
-<template>
+'<template>
   <Dialog
     :model-value="dialogVisible"
     :title="dialogProps.title"
@@ -7,7 +7,7 @@
     :cancel-dialog="cancelDialog"
     width="45%"
   >
-    <div :style="'width: calc(100% - ' + dialogProps.labelWidth / 2 + 'px)'">
+    <div :style="'width: calc(100% - ' + dialogProps.labelWidth! / 2 + 'px)'">
       <el-form
         ref="ruleFormRef"
         label-position="right"
